@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.Eighty_container{
+     width: 80%;
+     margin: auto;
+     padding: 90px;
+}
+header{
+    background-color: rgb(119, 6, 171);
+}
+nav{
+    margin: auto;
+    height: 170px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+nav img{
+    height: 150px;
+}
+.header_list ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.header_list a{
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    font-weight: 600;
+}
+#nav_button{
+    background-color: rgb(239, 103, 125);
+    height: 180px;
+    width: 500px;
+    border-radius: 30px;
+}
+#nav_button:hover{
+    border: none;
+    background-color: rgb(119, 6, 171);
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+.hero_container{
+    height: 180em;
+    width: 100%;
+    background-image: url(Assets/images/hero-1.jpg);
+}
+.hero_wrapper{
+    width: 100%;
+}
+.written_content{
+    width: 50%;
+}
+.written_content h2{
+    color: white;
+    font-size: 280px;
+    padding-top: 500px;
+}
+.written_content p{
+    color: white;
+    font-size: 100px;
+    padding-top: 80px;
+}
+.written_content button{
+    width: 1000px;
+    height: 200px;
+    font-size: 5em;
+    margin-top: 100px;
+    background-color: rgb(222, 63, 89);
+    color: white;
+    border: none;
+}
+.other_content{
+    width: 50%;
+}
