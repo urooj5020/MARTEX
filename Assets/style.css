@@ -6,10 +6,10 @@
 }
 body{
     min-width: 320px;
-    max-width: 1800px;
 }
 .wrapper{
     margin: auto;
+     max-width: 1800px;
 }
 li{
     margin-left: 20px;
