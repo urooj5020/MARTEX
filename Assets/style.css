@@ -4,13 +4,21 @@
     box-sizing: border-box;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+.img_box{
+    background-image: url(/Assets/images/hero-1.jpg);
+    margin-top: 0px;
+}
 .Eighty_container{
      width: 80%;
      margin: auto;
-     padding: 90px;
+     padding: 0px;
 }
 header{
-    background-color: rgb(119, 6, 171);
+    width: 100%;
+    padding-top: 30px;
+}
+#second_logo{
+    display: none;
 }
 nav{
     margin: auto;
@@ -21,12 +29,12 @@ nav{
     align-items: center;
 }
 nav img{
-    height: 150px;
+    height: 40px;
 }
 .header_list ul{
     list-style: none;
     display: flex;
-    gap: 100px;
+    gap: 50px;
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -35,14 +43,15 @@ nav img{
 .header_list a{
     color: white;
     text-decoration: none;
-    font-size: 70px;
+    font-size: 20px;
     font-weight: 600;
 }
 #nav_button{
     background-color: rgb(239, 103, 125);
-    height: 180px;
-    width: 500px;
-    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
 }
 #nav_button:hover{
     border: none;
@@ -51,7 +60,7 @@ nav img{
     transition: all 0.5s ease-in-out;
 }
 .hero_container{
-    height: 180em;
+    height: 1000px;
     width: 100%;
     background-image: url(Assets/images/hero-1.jpg);
 }
@@ -65,18 +74,18 @@ nav img{
 }
 .written_content h2{
     color: white;
-    font-size: 280px;
-    padding-top: 500px;
+    font-size: 65px;
+    padding-top: 200px;
 }
 .written_content p{
     color: white;
-    font-size: 100px;
+    font-size: 30px;
     padding-top: 80px;
 }
 .written_content button{
-    width: 1000px;
-    height: 200px;
-    font-size: 5em;
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
     margin-top: 100px;
     background-color: rgb(222, 63, 89);
     color: white;
@@ -728,6 +737,9 @@ footer p{
         justify-content: center;
 
     }
+    .lined_child{
+        width: 100% !important;
+    }
     h2{
         font-size: 20px !important;
     }
@@ -779,7 +791,7 @@ footer p{
        text-align: center;
      }
      .other_content img{
-        height: 300px;
+        height: 300px !important;
      }
      .content-container h2{
         font-size: 30px;
@@ -794,7 +806,8 @@ footer p{
          margin-bottom: 20px;
      }
      .box_one{
-        width: 100%;
+        width: 100% !important;
+        
      }
      .box_one h3{
         font-size: 20px;
@@ -833,13 +846,13 @@ footer p{
         padding: 10px !important;
      }
      .two_images img{
-        height: 150px;
+        height: 150px !important;
      }
      .second_img{
         width: 100% !important;
      }
      .lined_content{
-        margin-top: 250px;
+        margin-top: 350px !important;
         flex-direction: column;
      }
     .other_content1{
@@ -866,14 +879,14 @@ footer p{
         margin-left: 0px;
     }
     .other_content2 img{
-    height: 250px;
+    height: 250px !important;
     margin-top: 50px;
     }
     .bara_box {
-        height: 450px;
+        height: 450px !important;
     }
     .barabox_img img{
-        height: 200px;
+        height: 200px !important;
     }
     .vip_para{
         font-size: 20px;
@@ -913,7 +926,7 @@ footer p{
         margin-top: 0px;
     }
     .one_img img{
-        height: 100px;
+        height: 100px !important;
     }
     .scrolling_box {
         flex-direction: column;
@@ -953,7 +966,9 @@ footer p{
         width: 100%;
     }
     .fourbrands_box{
-        height: 1500px;
+        height: 1000px !important;
+        margin-top: 400px;
+        padding: 10px;
     }
     .hero_wrapper2{
         flex-direction: column;
@@ -1051,7 +1066,7 @@ footer p{
        text-align: center;
      }
      .other_content img{
-        height: 300px;
+        height: 300px !important;
      }
      .content-container h2{
         font-size: 30px;
@@ -1225,7 +1240,7 @@ footer p{
         width: 100%;
     }
     .fourbrands_box{
-        height: 1600px;
+        height: 1200px !important;
         width: 100%;
     }
     .hero_wrapper2{
@@ -1312,7 +1327,7 @@ footer p{
         font-size: 15px !important;
      }
      .other_content img{
-        height: 450px;
+        height: 450px ;
         margin-top: 100px;
         overflow: hidden;
      }
