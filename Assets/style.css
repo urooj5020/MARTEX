@@ -8,6 +8,9 @@ body{
     min-width: 320px;
     max-width: 1800px;
 }
+.wrapper{
+    margin: auto;
+}
 li{
     margin-left: 20px;
 }
@@ -872,7 +875,8 @@ footer p{
      }
     .other_content1{
         flex-direction: column;
-        width: 50% !important;
+        width: 100% !important;
+        margin-left: 0px;
         
     }
     .othercontent_child{
@@ -1141,7 +1145,8 @@ footer p{
         flex-direction: column;
      }
     .other_content1{
-        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
     }
     .othercontent_child{
         width: 100% !important;
