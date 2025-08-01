@@ -1375,7 +1375,7 @@ footer p{
         font-size: 20px;
      }
      .othercontent_child{
-        width: 150px;
+        width: 230px;
         height: 180px;
         padding: 10px;
      }
@@ -1385,7 +1385,7 @@ footer p{
      .othercontent_child2{
         height: 250px;
         top: 70px;
-        width: 300px;
+        width: 470px;
      }
      .other_content2 img{
        height: 300px;
@@ -1436,6 +1436,7 @@ footer p{
         height: 30px;
         width: 30px;
         border-radius: 100%;
+        font-size: 15px;
      }
      .tool_child{
       height: 100px;        
